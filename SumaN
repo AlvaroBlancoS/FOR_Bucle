@@ -1,0 +1,19 @@
+package FOR_Bucle;
+
+import java.util.Scanner;
+
+public class SumaN {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Ingrese cualquier numero: ");
+		int n = in.nextInt();
+
+		for (int i = n; i <= n * 12; i += n) {
+			System.out.print(i + ", ");
+
+		}
+
+	}
+
+}
